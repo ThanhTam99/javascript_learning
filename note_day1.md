@@ -19,7 +19,7 @@
     1. Arithmetic: * / + - ** % ++ --
     2. Assignment =
     3. Comparison: > < ==
-    4. Logical: && || 
+    4. Logical: && || !
 
     var a = 0
     // In truoc + sau
@@ -48,3 +48,12 @@
     5. NaN
     6. null
     Trong if(convert to bool va khac 6 type tren thi se luon la true)
+6. Logical
+    var a = true;
+    var b = false;
+    var c = a || b;
+    var d = b && c;
+
+    console.log(c, d); // true false
+    && : neu it nhat 1 ve false thi return false
+    || : neu it nhat 1 ve true thi return true
