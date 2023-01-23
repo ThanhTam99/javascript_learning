@@ -1,8 +1,6 @@
-// Chay 1 lan 1 doan code
-setTimeout(function () {
-    alert("Test")
-}, 1000)
-// Chay lien tuc 1 doan code
-setInterval(function () {
-    console.log("This is log");
-},3000)
+var num = 6
+// var output = num++ * 2 + --num * 2 // 6 * 2 + 6 * 2
+var output = ++num * 2 - num-- * 2 // 7 * 2 - 7 * 2
+console.log(output);
+
+
