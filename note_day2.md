@@ -37,3 +37,9 @@ Kieu du lieu
     console.log(a==b) => true, nên use === để so sánh cả kiểu dữ liệu
 
     Ngoại lệ: console.log(Boolean(document.all)); // false
+
+4. Toan tu &&, toán tử || thì ngược lại
+    a = 1
+    b = 2
+    var result = 'A' && 'B' && null && 'C' => null (thuoc 1 trong 6 falsy cua boolean) đọc value từ bên trái sang
+    if (result) log('dung') else log('sai') => sai 
